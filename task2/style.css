@@ -1,0 +1,148 @@
+/* CSS RESET */
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+
+/* TOP CONTAINER */
+
+.topContainer{
+    color: rgb(66, 55, 55);
+    background: url("bg2.jpg") no-repeat center center/cover ;
+    height: 500px;
+    
+}
+
+.img{
+    position: absolute;
+}
+
+.content{
+    padding-top: 50px;
+    text-align: center;
+    font-size: 2.5rem;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* INTRO CONTAINER */
+
+.introContainer{
+    margin-top: 20px;
+}
+
+.facelogo{
+    height: 200px;
+    margin-left: 40%;
+
+    
+}
+
+.introContent{
+    text-align: center;
+    margin: auto; 
+    width:80%;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-seri;
+}
+
+.introContent h3{
+    width: 60%;
+    margin: auto;
+}
+
+hr{
+    margin-top: 30px;
+}
+
+/* SKILLS CONTAINER */
+
+.skills h1{
+    text-align: center;
+    margin-top: 20px;
+    
+}
+.skillscontent1 img{
+    height: 200px;
+}
+
+.skillscontent1{
+    display: flex;
+    margin-top: 30px;
+}
+
+.skillscontent1 h3{
+    margin-top: 50px;
+    margin-left: 40px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+/* 2ND SKILL */
+
+.java{
+    float: right;
+    
+}
+
+.skillscontent2 img{
+    height: 120px;
+    
+}
+.skillscontent2{
+    display: inline;
+    margin-top: 30px;
+    
+}
+
+.skillscontent2 h3{
+    margin-top: 50px;
+    margin-left: 40px;
+    font-family: 'Source Serif 4', sans-serif;
+}
+
+/* 3RD SKILL */
+
+.skillscontent3 img{
+    height: 200px;
+    
+}
+
+.skillscontent3{
+    display: flex;
+    margin-top: 30px;
+}
+
+.skillscontent3 h3{
+    margin-top: 50px;
+    margin-left: 40px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* FOLLOW SECTION */
+
+.followSection h1{
+    text-align: center;
+}
+
+.accounts{
+    margin-top: 15px;
+    text-align: center;
+    word-spacing: 30px;
+    font-size: 1.5rem;
+    
+}
+
+.accounts a{
+    text-decoration: none;
+
+}
+
+/* FOOTER */
+
+footer{
+    color: rgb(240, 154, 154);
+    background-color:grey;
+    margin-top: 10px;
+    text-align: center;
+}
